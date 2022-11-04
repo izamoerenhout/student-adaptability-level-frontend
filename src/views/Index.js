@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -73,7 +74,7 @@ class Index extends React.Component {
                         find out if taking online classes is for you or find out which factors are
                         causing you to fail.
                       </p>
-                      <Button className="btn-1" color="default" type="button" href="/prediction">
+                      <Button className="btn-1" color="default" type="button" to="/prediction" tag={Link}>
                         Make a prediction
                       </Button>
                     </Col>
@@ -87,7 +88,7 @@ class Index extends React.Component {
                     How does it work?
                   </h2>
                   <p>Wondering how we draw the conclusion? Then go to this page!</p>
-                  <Button className="btn-1" color="default" type="button" href="/how-does-it-work">
+                  <Button className="btn-1" color="default" type="button" to="/how-does-it-work" tag={Link}>
                     How does it work?
                   </Button>
                 </CardBody>

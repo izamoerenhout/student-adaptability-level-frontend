@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //import classnames from "classnames";
 
 import {
@@ -57,7 +58,8 @@ class Working extends React.Component {
                                                     className="my-4"
                                                     color="primary"
                                                     type="button"
-                                                    href="/prediction"
+                                                    to="/prediction"
+                                                    tag={Link}
                                                 >
                                                     Make a prediction
                                                 </Button>
