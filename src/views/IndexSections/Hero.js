@@ -18,7 +18,8 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+// import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 
 class Hero extends React.Component {
   render() {
@@ -43,7 +44,7 @@ class Hero extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  {/* <Col className="text-center" lg="6">
                     <img
                       alt="..."
                       className="img-fluid"
@@ -93,7 +94,7 @@ class Hero extends React.Component {
                         src={require("assets/img/brand/creativetim-white-slim.png")}
                       />
                     </div>
-                  </Col>
+                  </Col> */}
                 </Row>
               </div>
             </Container>

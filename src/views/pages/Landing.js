@@ -37,8 +37,8 @@ import {
 } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import NavigationBar from "components/NavigationBar.js";
+import PageFooter from "components/PageFooter.js";
 
 // index page sections
 import Download from "../IndexSections/Download.js";
@@ -53,7 +53,7 @@ class Landing extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        <NavigationBar />
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
@@ -864,7 +864,7 @@ class Landing extends React.Component {
           </section>
           <Download />
         </main>
-        <CardsFooter />
+        <PageFooter />
       </>
     );
   }

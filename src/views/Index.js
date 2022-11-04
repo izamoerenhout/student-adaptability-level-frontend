@@ -1,28 +1,11 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
 import { Container, Row } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import NavigationBar from "components/NavigationBar.js";
+import PageFooter from "components/PageFooter.js";
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";
@@ -41,10 +24,10 @@ import Typography from "./IndexSections/Typography.js";
 import Modals from "./IndexSections/Modals.js";
 import Datepicker from "./IndexSections/Datepicker.js";
 import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
-import Download from "./IndexSections/Download.js";
+// import Carousel from "./IndexSections/Carousel.js";
+// import Icons from "./IndexSections/Icons.js";
+// import Login from "./IndexSections/Login.js";
+// import Download from "./IndexSections/Download.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -55,7 +38,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        <NavigationBar />
         <main ref="main">
           <Hero />
           <Buttons />
@@ -85,12 +68,12 @@ class Index extends React.Component {
               <TooltipPopover />
             </Container>
           </section>
-          <Carousel />
+          {/* <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
-        <CardsFooter />
+        <PageFooter />
       </>
     );
   }
