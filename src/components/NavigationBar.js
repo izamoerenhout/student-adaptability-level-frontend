@@ -6,10 +6,10 @@ import Headroom from "headroom.js";
 import {
   // Button,
   // UncontrolledCollapse,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown,
+  //DropdownMenu,
+  //DropdownItem,
+  //DropdownToggle,
+  //UncontrolledDropdown,
   // Media,
   NavbarBrand,
   Navbar,
@@ -57,7 +57,7 @@ class NavigationBar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 Student Adaptability
               </NavbarBrand>
-              <Nav className="navbar-nav-hover align-items-lg-center" navbar>
+              {/* <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                 <UncontrolledDropdown nav>
                   <DropdownToggle nav>
                     <i className="ni ni-collection d-lg-none mr-1" />
@@ -69,7 +69,7 @@ class NavigationBar extends React.Component {
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-              </Nav>
+              </Nav> */}
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
                 <NavItem>
                   <NavLink
