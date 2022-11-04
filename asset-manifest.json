@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/student-adaptability-level-frontend/static/css/main.2a27b479.css",
-    "main.js": "/student-adaptability-level-frontend/static/js/main.9b5dafdf.js",
+    "main.js": "/student-adaptability-level-frontend/static/js/main.6405254e.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/student-adaptability-level-frontend/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/team-2-800x800.jpg": "/student-adaptability-level-frontend/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
     "static/media/img-1-1200x1000.jpg": "/student-adaptability-level-frontend/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.2a27b479.css",
-    "static/js/main.9b5dafdf.js"
+    "static/js/main.6405254e.js"
   ]
 }
