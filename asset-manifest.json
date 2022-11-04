@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/student-adaptability-level-frontend/static/css/main.2a27b479.css",
-    "main.js": "/student-adaptability-level-frontend/static/js/main.4e6b91cf.js",
+    "main.js": "/student-adaptability-level-frontend/static/js/main.c26e520c.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/student-adaptability-level-frontend/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/team-2-800x800.jpg": "/student-adaptability-level-frontend/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
     "static/media/img-1-1200x1000.jpg": "/student-adaptability-level-frontend/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
@@ -15,7 +15,6 @@
     "static/media/ill-2.svg": "/student-adaptability-level-frontend/static/media/ill-2.b82bc41ca8f27286779053cc2a544e93.svg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/student-adaptability-level-frontend/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/promo-1.png": "/student-adaptability-level-frontend/static/media/promo-1.f39d32d244fa5beabbaf.png",
-    "static/media/argon-react.png": "/student-adaptability-level-frontend/static/media/argon-react.128d71d316a8e92aff4a.png",
     "static/media/nucleo-icons.eot": "/student-adaptability-level-frontend/static/media/nucleo-icons.19abb5402a664606b14c.eot",
     "static/media/nucleo-icons.ttf": "/student-adaptability-level-frontend/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
     "static/media/nucleo-icons.woff": "/student-adaptability-level-frontend/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
@@ -26,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.2a27b479.css",
-    "static/js/main.4e6b91cf.js"
+    "static/js/main.c26e520c.js"
   ]
 }
