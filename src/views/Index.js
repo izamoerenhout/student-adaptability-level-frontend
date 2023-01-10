@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-// reactstrap components
 import {
   Button,
   Container,
@@ -11,7 +9,6 @@ import {
   Card
 } from "reactstrap";
 
-// core components
 import NavigationBar from "components/NavigationBar.js";
 import PageFooter from "components/PageFooter.js";
 
@@ -79,46 +76,58 @@ class Index extends React.Component {
                       </Button>
                     </Col>
                   </Row>
+
+                  <Row className="mt-6">
+                    <Col lg="4">
+                      <Card className="col shadow center">
+                        <CardBody>
+                          <h2>
+                            How does it work?
+                          </h2>
+                          <p>Wondering how we draw the conclusion? Then go to this page!</p>
+                          <Button className="btn-1" color="default" type="button" to="/how-does-it-work" tag={Link}>
+                            How does it work?
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+
+                    <Col lg="4">
+                      <Card className="col shadow center">
+                        <CardBody>
+                          <h2>
+                            How do we handle your data?
+                          </h2>
+                          <p>
+                            The entered data is used only once by our trained AI.
+                            That is why it is never stored anywhere on our servers,
+                            we do this because we value your privacy!
+                          </p>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+                    <Col lg="4">
+                      <Card className="col shadow center">
+                        <CardBody>
+                          <h2>
+                            Why is the prediction reliable?
+                          </h2>
+                          <p>
+                            The data was collected by researchers through questionnaires
+                            in the region of Bangladesh. The dataset is from
+                            <a href="https://www.kaggle.com/datasets/mdmahmudulhasansuzan/students-adaptability-level-in-online-education"> Kaggle</a>.
+                          </p>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
+
+
+                  {/* here */}
                 </div>
               </Container>
-
-              <Card className="col-lg-8 shadow center mt-6">
-                <CardBody>
-                  <h2>
-                    How does it work?
-                  </h2>
-                  <p>Wondering how we draw the conclusion? Then go to this page!</p>
-                  <Button className="btn-1" color="default" type="button" to="/how-does-it-work" tag={Link}>
-                    How does it work?
-                  </Button>
-                </CardBody>
-              </Card>
-
-              <Card className="col-lg-8 shadow center mt-6">
-                <CardBody>
-                  <h2>
-                    How do we handle your data?
-                  </h2>
-                  <p>
-                    The entered data is used only once by our trained AI.
-                    That is why it is never stored anywhere on our servers,
-                    we do this because we value your privacy!
-                  </p>
-                </CardBody>
-              </Card>
-
-              <Card className="col-lg-8 shadow center mt-6">
-                <CardBody>
-                  <h2>
-                    Why is the prediction reliable?
-                  </h2>
-                  <p>
-                    The data was collected by researchers through questionnaires
-                    in the region of Bangladesh. The dataset is from
-                    <a href="https://www.kaggle.com/datasets/mdmahmudulhasansuzan/students-adaptability-level-in-online-education"> Kaggle</a>.
-                  </p>
-                </CardBody>
-              </Card>
 
               <div className="separator separator-bottom separator-skew">
                 <svg

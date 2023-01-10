@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 //import classnames from "classnames";
 
 import {
-    Button,
+    //Button,
     Card,
     CardHeader,
     CardBody,
@@ -53,7 +53,7 @@ class Working extends React.Component {
                                                 With the click of a button, it is predicted how well you can adapt to taking
                                                 classes online or working from home.
                                             </p>
-                                            <div className="text-center">
+                                            {/* <div className="text-center">
                                                 <Button
                                                     className="my-4"
                                                     color="primary"
@@ -63,7 +63,7 @@ class Working extends React.Component {
                                                 >
                                                     Make a prediction
                                                 </Button>
-                                            </div>
+                                            </div> */}
                                         </CardBody>
                                     </Card>
                                 </Col>

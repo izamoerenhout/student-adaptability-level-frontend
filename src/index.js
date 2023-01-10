@@ -31,14 +31,16 @@ root.render(
         render={(props) => <Landing {...props} />}
       />
       <Route
-        path="/login-page"
-        exact
-        render={(props) => <Login {...props} />}
-      />
-      <Route
         path="/prediction"
         exact
         render={(props) => <Predict {...props} />}
+      />
+
+
+      <Route
+        path="/login-page"
+        exact
+        render={(props) => <Login {...props} />}
       />
       <Route
         path="/profile-page"
@@ -50,6 +52,8 @@ root.render(
         exact
         render={(props) => <Register {...props} />}
       />
+
+
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>

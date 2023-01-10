@@ -10,7 +10,7 @@ import {
 
 import PredictLogic from "./Predict-logic";
 import Form from "./fragments/Form";
-import Result from "./fragments/Result";
+//import Result from "./fragments/Result";
 
 function PredictionCompose() {
     let { result, form } = new PredictLogic()
@@ -29,9 +29,9 @@ function PredictionCompose() {
                             }
 
                             {/* SHOW RESULT FROM PREDICTION */}
-                            {(result.data !== undefined && result.explanation.show === false) &&
+                            {/* {(result.data !== undefined && result.explanation.show === false) &&
                                 <Result logic={result} />
-                            }
+                            } */}
 
 
                         </Card>

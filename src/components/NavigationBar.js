@@ -57,41 +57,39 @@ class NavigationBar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 Student Adaptability
               </NavbarBrand>
-              {/* <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                <UncontrolledDropdown nav>
-                  <DropdownToggle nav>
-                    <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Examples</span>
-                  </DropdownToggle>
-                  <DropdownMenu>
-                    <DropdownItem to="/landing-page" tag={Link}>
-                      Landing
-                    </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-              </Nav> */}
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
                 <NavItem>
                   <NavLink
-                    className="nav-link"
+                    className="nav-link-icon"
                     id="tooltip1"
-                    to="/how-does-it-work"
-                    tag={Link}>
-                    How does it work?
+                    href="https://github.com/izamoerenhout/student-adaptability-level-frontend">
+                    <i className="fa fa-github" />
                   </NavLink>
                   <UncontrolledTooltip delay={0} target="tooltip1">
-                    Explanation about how the AI works
+                    Github page
                   </UncontrolledTooltip>
                 </NavItem>
                 <NavItem>
                   <NavLink
                     className="nav-link"
                     id="tooltip2"
+                    to="/how-does-it-work"
+                    tag={Link}>
+                    How does it work?
+                  </NavLink>
+                  <UncontrolledTooltip delay={0} target="tooltip2">
+                    Explanation about how the AI works
+                  </UncontrolledTooltip>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className="nav-link"
+                    id="tooltip3"
                     to="/prediction"
                     tag={Link}>
                     Prediction
                   </NavLink>
-                  <UncontrolledTooltip delay={0} target="tooltip2">
+                  <UncontrolledTooltip delay={0} target="tooltip3">
                     Make a prediction
                   </UncontrolledTooltip>
                 </NavItem>

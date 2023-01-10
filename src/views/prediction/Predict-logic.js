@@ -18,6 +18,24 @@ function PredictLogic() {
     const [lms, setLms] = useState(undefined);
     const [device, setDevice] = useState(undefined);
 
+    /* const [data, setData] = useState("");
+    const [errors, setErrors] = useState("");
+
+    const [gender, setGender] = useState("");
+    const [age, setAge] = useState("");
+    const [education, setEducation] = useState("");
+    const [institution, setInstitution] = useState("");
+    const [student, setStudent] = useState("");
+    const [location, setLocation] = useState("");
+    const [load, setLoad] = useState("");
+    const [financial, setFinancial] = useState("");
+    const [internet, setInternet] = useState("");
+    const [network, setNetwork] = useState("");
+    const [duration, setDuration] = useState("");
+    const [lms, setLms] = useState("");
+    const [device, setDevice] = useState(""); */
+
+
 
     const onSubmit = async (event) => {
         event.preventDefault();

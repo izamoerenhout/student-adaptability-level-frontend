@@ -45,6 +45,7 @@ class Predict extends React.Component {
                                 <span />
                                 <span />
                             </div>
+                            <PredictionCompose />
                             <div className="separator separator-bottom separator-skew">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +62,7 @@ class Predict extends React.Component {
                                 </svg>
                             </div>
 
-                            <PredictionCompose />
+
 
                             {/* <Container className="pt-lg-8">
                                 <Row className="justify-content-center">
