@@ -1,4 +1,4 @@
-# Student-adaptability-level-frontend
+# OUT-DATED: Student-adaptability-level-frontend
 The frontend app is live on: https://izamoerenhout.github.io/student-adaptability-level-frontend/ <br />
 Important to know: the app only contains textual explanation, a prediction can not be made yet! 
 
